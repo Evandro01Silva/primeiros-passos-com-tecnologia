@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de projeto</title>
+</head>
+<body>
+    <h1>Desafio de projeto - Criar uma página web utilizando as tags aprendidas</h1>
+    <hr />
+    <p>Ao longo do curso foi visto como montar a estrutura básica de uma página html para 
+        ser visualizada pelos navegadores de internet (browsers), foi visto também alguns 
+        atributos que as tags podem ter, esses atributos ajudam a deixar a página mais 
+        personalizada e deixando-as com uma aprência mais específica.
+    </p>
+
+    <h2>Tags de título e subtítulos - h1 até h6</h2>
+    <p>O primeiro título da página deverá estar dentro da tag h1, o h1 terá a maior fonte 
+        entre os títulos, os seguintes subtítulos deverão estar dentro das tags h2, h3, 
+        h4, h5 e h6, quanto maior o número após o "h", menor será o tamanho da fonte do 
+        subtítulo.
+    </p>
+    <h3>Exemplos:</h3>
+    <img style="border: solid black 1pt;" src="https://answerguy.com/wp-content/uploads/2012/12/h1-and-influency-in-search-engine-optimization.gif" alt="">
+
+    <h2>Tag de parágrafo - p</h2>
+    <p>As tags "p" são usadas para inserir parágrafos e textos dentro delas.</p>
+
+    <h2>Tag mark</h2>
+    <p>A tag mark serve para deixar um trecho específico de um texto (ou o texto inteiro) 
+        com um fundo amarelo (padrão da tag mark), a cor de fundo pode ser personalizada 
+        com o atributo "background-color", vamos ver a seguir alguns exemplos.
+    </p>
+    <p>
+        <mark>texto 1.</mark>
+        <br>
+        <mark style="background-color: lightgreen;">texto 2.</mark>
+        <ul>
+            <li>No texto 2, usamos o atributo background-color para deixar o fundo 
+                verde-claro (style="background-color: lightgreen;"), o atributo foi 
+                utilizado dentro da própria tag (mark), mas veremos mais adiante como 
+                utilizar os atributos de tags dentro do CSS.
+            </li>
+        </ul>
+    </p>
+
+    <h2>Tag small</h2>
+    <p>
+        A tag small serve para deixar um texto menor em relação ao tamnho original de um 
+        parágrafo por exemplo.
+        Veja um exemplo a seguir:
+        <br><br>
+        Uma frase qualquer - <small>Uma frase qualquer</small>
+    </p>
+
+    <h2>Tag i</h2>
+    <p>
+        A tag i serve para deixar tudo o que estiver dentro da tag i em itálico.
+    </p>
+    <p>Texto normal - <i>Texto em itálico</i></p>
+
+    <h2>Tag u</h2>
+    <p>
+        A tag u serve para deixar uma palavra ou texto com uma linha sublinhada.
+    </p>
+    <p>Texto 1 - <u>Texto 2</u></p>
+
+    <h2>Tag strong</h2>
+    <p>A tag strong serve para deixar em negrito tudo o que estiver dentro dela (tag stroong).</p>
+    <p>Texto 1 - <strong>Texto 2</strong></p>
+
+    <h2>Tag ol (ordered list)</h2>
+    <p>
+        A tag ol (lista ordenanda) lista ítens um abaixo do outro de forma numérica ordenada, dentro 
+        da tag ol deverá ter uma tag li (list item) para cada ítem númerico da lista ordenanda.
+    </p>
+    <ol>
+        <li>Ítem I</li>
+        <li>Ítem II</li>
+        <li>Ítem III</li>
+    </ol>
+    <img style="border: solid black 1pt;" src="./tag ol.jpg" alt="">
+
+    <h2>tag ul (unordered list)</h2>
+    <p>A tag ul (lista não ordenanda) funciona de forma semelhante a tag ol, mas em vez de 
+        números para cada ítem, a lista será mostrada por pontos, tags li também deverão estar 
+        dentro da tag ul.
+    </p>
+    <ul>
+        <li>Ítem I</li>
+        <li>Ítem II</li>
+        <li>Ítem III</li>
+    </ul>
+    <img style="border: solid black 1pt;" src="./tag ul.jpg" alt="">
+
+    <h2>Tag a (ancor)</h2>
+    <p>A tag a (âncora) serve para colocarmos um link em um determinado texto, dentro da tag a 
+        devemos usar o atributo seguido do link, veja um exemplo a seguir: href="https://www.w3schools.com".
+    </p>
+    <a href="https://www.w3schools.com">Visit W3Schools.com!</a>
+    <p>Obs: para abrir a página em outra aba, devemos usar o atributo target="_blank"</p>
+
+    <h2>Tag hr (horizontal line)</h2>
+    <p>A tag hr serve para colocarmos uma linha horizontal em um determinado lugar de uma página.</p>
+    <hr />
+
+    <h2>Tags sub e sup</h2>
+    <p>As tags sub e sup servem para deixar os textos subescritos ou sobrescritos.</p>
+    <p>tag sub: 12<sub>3</sub></p>
+    <p>tag sup: 12<sup>3</sup></p>
+
+    <h2>Tag blockquote</h2>
+    <p>A tag blockquote serve para inserir citações em determinado texto, indicando que a citação é 
+        de outro autor.
+    </p>
+    <p><strong>Um texto para exemplo</strong></p>
+    <blockquote>"Uma citação de um determinado autor."</blockquote>
+
+    <h2>Tag font</h2>
+    <p>A tag font não é mais usada no HTML5, usamos o font como atributo no CSS3.</p>
+    <img style="border: solid black 1pt;" src="./Screenshot 2023-06-20 at 19-10-03 HTML font tag.jpg" alt="">
+
+    <h2>Tag del</h2>
+    <p>A tag del serve mostrar uma parte de um texto que foi "deletada", o que estiver dentro da tag del 
+        ficará marcada com um traço no meio da(s) palavra(s), veja o exemplo a seguir:</p>
+    <p>"Um trecho deste texto <del>não</del> foi excluído."</p>
+
+    <h2>Tag abbr (abreviatura)</h2>
+    <p>A tag abbr serve para abreviar tudo o que estiver dentro dela, exemplo:</p>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <img style="border: solid black 1pt;" src="./abbr tag.jpg" alt="">
+</body>
+<!-- https://github.com/digitalinnovationone/trilha-html-modulo-1 -->
+</html>
